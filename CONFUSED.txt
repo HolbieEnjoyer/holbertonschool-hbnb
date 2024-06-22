@@ -1,0 +1,12 @@
+There are:
+ - Users
+ - Places
+ - Amenities
+
+ * Users have: first name, last name, email, password
+ * Places have various attributes
+ * Amenities are single items with a title
+ * Users can create places that are stored globally
+ * Users can leave reviews on places using the place_id. Only one review can be left per user on a single place.
+ When a review is added the id of the places is stored in the user's list of reviews they left.
+ * Amenities can be added by host users on the places they own using the id of the place
